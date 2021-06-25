@@ -619,6 +619,7 @@ body {
   }
   .social-proof > .container > .rating > .item > .container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     -moz-column-gap: 2.25rem;
@@ -638,12 +639,13 @@ body {
   .social-proof > .container > .testimonials > .container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     -moz-column-gap: 1.875rem;
          column-gap: 1.875rem;
   }
   .social-proof > .container > .testimonials > .container > .card {
     max-width: 21.875rem;
-    max-height: 14.5rem;
+    min-height: 14.5rem;
   }
   .social-proof > .container > .testimonials > .container > .card-p2 {
     margin-top: 1rem;
