@@ -580,7 +580,7 @@ body {
   line-height: 1.7;
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 64rem) {
   body {
     height: 100vh;
     background: url("images/bg-pattern-top-desktop.svg") no-repeat, url("images/bg-pattern-bottom-desktop.svg") no-repeat;
@@ -639,7 +639,6 @@ body {
   .social-proof > .container > .testimonials > .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     -moz-column-gap: 1.875rem;
          column-gap: 1.875rem;
   }
