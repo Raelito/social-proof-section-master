@@ -619,7 +619,6 @@ body {
   }
   .social-proof > .container > .rating > .item > .container {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     -moz-column-gap: 2.25rem;
